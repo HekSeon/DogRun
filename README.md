@@ -44,18 +44,6 @@
 
 # シンプルながら “爽快感” と “反応速度” が問われるゲームプレイを目指しました。
 
-# 
-
-# <p align="center">
-
-# &nbsp; <img src="SCREENSHOT\_1" width="420">
-
-# &nbsp; <img src="SCREENSHOT\_2" width="420">
-
-# </p>
-
-# 
-
 # ---
 
 # 
@@ -82,7 +70,7 @@
 
 # \### 🏃 直感的で分かりやすい操作性
 
-# \- A/D でレーン移動  
+# \- W/A/S/D でレーン移動  
 
 # \- Space でジャンプ  
 
@@ -112,7 +100,7 @@
 
 # |------|------|
 
-# | ゲームエンジン | Unity 202X.X |
+# | ゲームエンジン | Unity 6000.0.47f1 |
 
 # | 言語 | C# |
 
@@ -169,7 +157,7 @@
 
 # \### 🔹 方法①：Unity Editor で直接起動  
 
-# ```bash
+# bash
 
 # git clone https://github.com/HekSeon/DogRun.git
 
