@@ -1,11 +1,3 @@
-# <p align="center">
-
-# &nbsp; <img src="YOUR\_BANNER\_IMAGE\_HERE" width="800" alt="DogRun Banner">
-
-# </p>
-
-# 
-
 # <h1 align="center">🐾 DogRun — 3D Action Runner Game</h1>
 
 # 
@@ -42,9 +34,9 @@
 
 # 
 
-# \*\*DogRun\*\* は、プレイヤーが犬キャラクターを操作し、  
+# DogRunは、プレイヤーが犬キャラクターを操作し、  
 
-# \*\*障害物を避けながら高速で走り続ける 3D ランナーゲーム\*\* です。
+# 障害物を避けながら高速で走り続ける 3D ランナーゲーム です。
 
 # 
 
@@ -72,7 +64,7 @@
 
 # 
 
-# \### 🐶 \*\*キャラクターアニメーション\*\*
+# \### 🐶 キャラクターアニメーション
 
 # \- Idle / Run / Jump などの基本モーション  
 
@@ -80,7 +72,7 @@
 
 # 
 
-# \### 🧱 \*\*障害物生成 \& ランダム配置システム\*\*
+# \### 🧱 障害物生成 \& ランダム配置システム
 
 # \- プレイヤー前方に一定距離ごとに障害物スポーン  
 
@@ -88,7 +80,7 @@
 
 # 
 
-# \### 🏃 \*\*直感的で分かりやすい操作性\*\*
+# \### 🏃 直感的で分かりやすい操作性
 
 # \- A/D でレーン移動  
 
@@ -98,7 +90,7 @@
 
 # 
 
-# \### ⚙️ \*\*軽量・高速な最適化\*\*
+# \### ⚙️ 軽量・高速な最適化
 
 # \- 非アクティブ化によるオブジェクト再利用  
 
@@ -120,19 +112,19 @@
 
 # |------|------|
 
-# | \*\*ゲームエンジン\*\* | Unity \*\*202X.X\*\* |
+# | ゲームエンジン | Unity 202X.X |
 
-# | \*\*言語\*\* | C# |
+# | 言語 | C# |
 
-# | \*\*レンダリング\*\* | Built-in Pipeline |
+# | レンダリング | Built-in Pipeline |
 
-# | \*\*アニメーション\*\* | Mecanim / Animator Controller |
+# | アニメーション | Mecanim / Animator Controller |
 
-# | \*\*物理演算\*\* | Rigidbody / BoxCollider / SphereCollider |
+# | 物理演算 | Rigidbody / BoxCollider / SphereCollider |
 
-# | \*\*シーン構成\*\* | MainScene + Prefab-based Architecture |
+# | シーン構成 | MainScene + Prefab-based Architecture |
 
-# | \*\*バージョン管理\*\* | Git / GitHub |
+# | バージョン管理 | Git / GitHub |
 
 # 
 
