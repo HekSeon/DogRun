@@ -14,13 +14,7 @@
 
 # <p align="center">
 
-<img src="https://img.shields.io/badge/Engine-Unity-000000?logo=unity\&style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Language-C%23-239120?logo=csharp\&style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Platform-PC-blue?style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Engine-Unity-000000?logo=unity\&style=for-the-badge">	<img src="https://img.shields.io/badge/Language-C%23-239120?logo=csharp\&style=for-the-badge">	<img src="https://img.shields.io/badge/Platform-PC-blue?style=for-the-badge">	<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
 
 # </p>
 
