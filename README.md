@@ -1,50 +1,36 @@
-# \# DogRun 🐾  
+# <p align="center">
 
-# 3D サバイバル・アクション / Unity C# プロジェクト  
+# &nbsp; <img src="YOUR\_BANNER\_IMAGE\_HERE" width="800" alt="DogRun Banner">
 
-# 
-
-# \*\*開発期間\*\*: 20XX年X月 〜 20XX年Y月  
-
-# \*\*タイプ\*\*: 個人制作 / ポートフォリオ用デモ  
+# </p>
 
 # 
 
-# ---
+# <h1 align="center">🐾 DogRun — 3D Action Runner Game</h1>
 
 # 
 
-# \## 🌟 プロジェクト概要 / Overview  
+# <p align="center">
 
-# DogRun は、プレイヤー（犬）が障害物を避けつつ走り、敵や障害を乗り越えて進む 3D アクションゲームです。  
+# &nbsp; <b>Unity・C#・3Dアクション / 個人制作プロジェクト</b><br>
 
-# シンプルながらも操作性とスピード感に重きを置き、  
+# &nbsp; 高速ランゲーム × 障害回避 × アニメーション制御
 
-# Triangular parkour / 様々な地形／アニメーション／ゲームロジック を組み合わせたデモ作品です。  
-
-# 
-
-# ---
+# </p>
 
 # 
 
-# \## 🛠 使用技術 / Tech Stack  
+# <p align="center">
 
-# 
+# &nbsp; <img src="https://img.shields.io/badge/Engine-Unity-000000?logo=unity\&style=for-the-badge">
 
-# | カテゴリ | 内容 |
+# &nbsp; <img src="https://img.shields.io/badge/Language-C%23-239120?logo=csharp\&style=for-the-badge">
 
-# |---------|------|
+# &nbsp; <img src="https://img.shields.io/badge/Platform-PC-blue?style=for-the-badge">
 
-# | エンジン / 言語 | Unity (バージョン: \*\*202X.X\*\*), C# |
+# &nbsp; <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
 
-# | グラフィックス / シェーダー | Built-in Render Pipeline, Unity Standard Shader + カスタムマテリアル |
-
-# | モデリング / アセット | Unity 標準アセット / AssetStore（必要に応じて） |
-
-# | フィジックス / コライダー | Unity Rigidbody / Collider を使用した当たり判定・衝突処理 |
-
-# | 入力 / コントロール | Unity Input System または旧 Input クラス |
+# </p>
 
 # 
 
@@ -52,21 +38,29 @@
 
 # 
 
-# \## 🎮 特徴 / Features  
+# \## 🎮 ゲーム概要 / Game Overview
 
 # 
 
-# \- 🐕 キャラクターモデル + アニメーション付きの主人公（犬キャラ）  
+# \*\*DogRun\*\* は、プレイヤーが犬キャラクターを操作し、  
 
-# \- 地形／障害物／ランダム生成されるステージ構成  
+# \*\*障害物を避けながら高速で走り続ける 3D ランナーゲーム\*\* です。
 
-# \- 衝突判定と物理演算によるリアルな挙動  
+# 
 
-# \- シンプルな操作性（移動, ジャンプ, 回避）  
+# Unity のアニメーション、物理システム、カメラ制御を組み合わせ、  
 
-# \- パフォーマンスを考慮した最適化（不要なオブジェクトの非アクティブ化）  
+# シンプルながら “爽快感” と “反応速度” が問われるゲームプレイを目指しました。
 
-# \- Unity Build / 実行可能なデモファイル（バイナリ付き）  
+# 
+
+# <p align="center">
+
+# &nbsp; <img src="SCREENSHOT\_1" width="420">
+
+# &nbsp; <img src="SCREENSHOT\_2" width="420">
+
+# </p>
 
 # 
 
@@ -74,23 +68,199 @@
 
 # 
 
-# \## 🚀 動作方法 / How to Run / Demo  
+# \## 🧩 主な特徴 / Key Features
 
 # 
 
-# 以下の手順でプロジェクトを動かすことができます：
+# \### 🐶 \*\*キャラクターアニメーション\*\*
+
+# \- Idle / Run / Jump などの基本モーション  
+
+# \- StateMachine による自然な遷移  
 
 # 
+
+# \### 🧱 \*\*障害物生成 \& ランダム配置システム\*\*
+
+# \- プレイヤー前方に一定距離ごとに障害物スポーン  
+
+# \- 難易度に応じてスピードや密度が変化  
+
+# 
+
+# \### 🏃 \*\*直感的で分かりやすい操作性\*\*
+
+# \- A/D でレーン移動  
+
+# \- Space でジャンプ  
+
+# \- スムーズなカメラ追従  
+
+# 
+
+# \### ⚙️ \*\*軽量・高速な最適化\*\*
+
+# \- 非アクティブ化によるオブジェクト再利用  
+
+# \- 毎フレームの負荷軽減  
+
+# \- モバイル移植を想定した軽量設計  
+
+# 
+
+# ---
+
+# 
+
+# \## 🛠 使用技術 / Tech Stack
+
+# 
+
+# | 分類 | 内容 |
+
+# |------|------|
+
+# | \*\*ゲームエンジン\*\* | Unity \*\*202X.X\*\* |
+
+# | \*\*言語\*\* | C# |
+
+# | \*\*レンダリング\*\* | Built-in Pipeline |
+
+# | \*\*アニメーション\*\* | Mecanim / Animator Controller |
+
+# | \*\*物理演算\*\* | Rigidbody / BoxCollider / SphereCollider |
+
+# | \*\*シーン構成\*\* | MainScene + Prefab-based Architecture |
+
+# | \*\*バージョン管理\*\* | Git / GitHub |
+
+# 
+
+# ---
+
+# 
+
+# \## 📂 プロジェクト構造 / Directory Structure
+
+# DogRun/
+
+# ├── Assets/
+
+# │ ├── Scripts/ # すべてのC#スクリプト
+
+# │ ├── Animations/ # アニメーションクリップ \& コントローラ
+
+# │ ├── Models/ # キャラクターモデル \& 障害物モデル
+
+# │ ├── Materials/ # マテリアル \& テクスチャ
+
+# │ ├── Prefabs/ # キャラ・障害物プレハブ
+
+# │ ├── Scenes/ # MainScene.unity
+
+# │ └── …
+
+# ├── ProjectSettings/
+
+└── README.md
+
+
+===
+
+# ---
+
+# 
+
+# \## 🚀 実行方法 / How to Run
+
+# 
+
+# \### 🔹 方法①：Unity Editor で直接起動  
 
 # ```bash
 
-# git clone https://github.com/HekSeon/DogRun.git  
+# git clone https://github.com/HekSeon/DogRun.git
 
-# cd DogRun  
+# cd DogRun
 
-# \# Unity Hub でプロジェクトを開き、バージョン 202X.X を選択  
+\# Unity Hub でプロジェクトを開く
 
-# \# または Unity Editor で直接 `DogRun` フォルダを開く  
+対応 Unity Version：6000.0.47f1
+===
+
+# 
+
+# シーン: Assets/Scenes/MainScene.unity
+
+# 
+
+# 🔹 方法②：ビルド版を実行（※後で追加可能）
+
+# 
+
+# GitHub Releases にアップロードされた .exe を起動
+
+# 
+
+# 🧠 学んだこと / What I Learned
+
+# 
+
+# Animator Controller と StateMachine の構築
+
+# 
+
+# 物理挙動と衝突判定の調整
+
+# 
+
+# レーンベースの移動処理
+
+# 
+
+# Update / FixedUpdate の使い分け
+
+# 
+
+# 軽量なゲームループ設計
+
+# 
+
+# 🔮 今後のアップデート / Future Improvement
+
+# 
+
+# 敵AIの追加
+
+# 
+
+# スコア / UI の実装
+
+# 
+
+# モバイル向け操作スキーム
+
+# 
+
+# パーティクルエフェクトの追加
+
+# 
+
+# ランダム生成アルゴリズム強化
+
+# 
+
+# 👤 作者 / Author
+
+# 
+
+# BAYAR SEMIH (HekSeon)
+
+# HAL東京ゲームプログラマー学科 / 新卒ゲームプログラマー
+
+# DirectX11・Unity・Unreal によるゲーム開発を学習中。
+
+
 
 
 
